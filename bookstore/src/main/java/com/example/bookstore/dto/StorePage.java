@@ -33,4 +33,8 @@ public class StorePage {
 	public void setEndPage(int endPage) {
 		this.endPage = endPage;
 	}
+	
+	public void setEndPageYYYYYYY(int endPage) {
+		this.endPage = endPage;
+	}
 }
