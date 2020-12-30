@@ -30,11 +30,17 @@ public class User {
 		this.names = names;
 	}
 	
+<<<<<<< HEAD
 	public void setNam(String names) {
 		this.names = names;
 	}
 	public void setId***************(Integer id) {
 		this.id = id;
 	}
+=======
+	public void setNamesTETTTTT(String names) {
+		this.names = names;
+	}
+>>>>>>> ef05e05 (chiendv)
 	
 }
