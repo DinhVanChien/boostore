@@ -30,7 +30,7 @@ public class User {
 		this.names = names;
 	}
 	
-	public void setNamesTETTTTT(String names) {
+	public void setNamesV3(String names) {
 		this.names = names;
 	}
 	
