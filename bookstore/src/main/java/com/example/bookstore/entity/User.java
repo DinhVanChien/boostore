@@ -31,6 +31,7 @@ public class User {
 	}
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public void setNam(String names) {
 		this.names = names;
 	}
@@ -39,6 +40,9 @@ public class User {
 	}
 =======
 	public void setNamesTETTTTT(String names) {
+=======
+	public void setNamesV3(String names) {
+>>>>>>> chiendv
 		this.names = names;
 	}
 >>>>>>> ef05e05 (chiendv)
