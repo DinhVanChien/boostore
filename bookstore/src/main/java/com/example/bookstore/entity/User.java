@@ -32,6 +32,7 @@ public class User {
 	
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public void setNamesV3(String names) {
 		this.names = names;
 	}
@@ -58,5 +59,10 @@ public class User {
 >>>>>>> parent of 2d9d764 (Delete User.java)
 =======
 >>>>>>> parent of 2d9d764 (Delete User.java)
+=======
+	public void setNamesV3(String names) {
+		this.names = names;
+	}
+>>>>>>> aca18514d693ff31445ee39f45c0ed243df5f79e
 	
 }
