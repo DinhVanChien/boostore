@@ -30,8 +30,27 @@ public class User {
 		this.names = names;
 	}
 	
+<<<<<<< HEAD
 	public void setNamesV3(String names) {
 		this.names = names;
 	}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+	public void setNam(String names) {
+		this.names = names;
+	}
+	public void setId***************(Integer id) {
+		this.id = id;
+	}
+=======
+	public void setNamesTETTTTT(String names) {
+=======
+	public void setNamesV3(String names) {
+>>>>>>> chiendv
+		this.names = names;
+	}
+>>>>>>> ef05e05 (chiendv)
+>>>>>>> parent of 2d9d764 (Delete User.java)
 	
 }
