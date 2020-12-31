@@ -31,11 +31,14 @@ public class User {
 	}
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public void setNamesV3(String names) {
 		this.names = names;
 	}
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 2d9d764 (Delete User.java)
 <<<<<<< HEAD
 	public void setNam(String names) {
 		this.names = names;
@@ -51,6 +54,9 @@ public class User {
 		this.names = names;
 	}
 >>>>>>> ef05e05 (chiendv)
+<<<<<<< HEAD
+>>>>>>> parent of 2d9d764 (Delete User.java)
+=======
 >>>>>>> parent of 2d9d764 (Delete User.java)
 	
 }
