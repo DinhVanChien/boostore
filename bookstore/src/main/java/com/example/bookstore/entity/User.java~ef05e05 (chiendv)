@@ -30,14 +30,7 @@ public class User {
 		this.names = names;
 	}
 	
-	public void setNamesV3(String names) {
-		this.names = names;
-	}
-
-	public void setNam(String names) {
-		this.names = names;
-		
-	public void setNamesV3(String names) {
+	public void setNamesTETTTTT(String names) {
 		this.names = names;
 	}
 	
