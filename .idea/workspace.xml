@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44c5f33f-c3bf-4e18-9e65-0f700b0fb8d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bookstore/src/main/java/com/example/bookstore/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/src/main/java/com/example/bookstore/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookstore/src/main/java/com/example/bookstore/controller/BookNativeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/src/main/java/com/example/bookstore/controller/BookNativeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boostore" beforeDir="false" />
+    <list default="true" id="44c5f33f-c3bf-4e18-9e65-0f700b0fb8d2" name="Default Changelist" comment="UpTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore/src/main/java/com/example/bookstore/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore/src/main/java/com/example/bookstore/service/impl/BookServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +63,23 @@
       <workItem from="1620741335939" duration="10465000" />
       <workItem from="1621176917724" duration="4752000" />
       <workItem from="1621392161249" duration="57000" />
-      <workItem from="1621697355350" duration="628000" />
+      <workItem from="1621697355350" duration="1807000" />
     </task>
+    <task id="LOCAL-00001" summary="UpTest">
+      <created>1621698057965</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621698057965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="UpTest">
+      <created>1621698073891</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621698073891</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UpTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="UpTest" />
   </component>
 </project>

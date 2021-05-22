@@ -57,8 +57,6 @@ public class BookServiceImpl implements BookService {
 		book.setName("SpringBoot2");
 		book.setAuthor("Đinh Văn Chiến");
 		book.setPrice(200000);
-		int a = 2/0;
-		System.out.println(a);
 		bookRepository.save(book);
 	}
 
