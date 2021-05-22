@@ -1,37 +1,22 @@
 package com.example.bookstore.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+import javax.persistence.*;
+
 @Entity
 @Table(name = "USERS")
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
 	@Id
-	private Integer id;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 	private String names;
-	public User() {
-		super();
-	}
-	public User(Integer id, String names) {
-		super();
-		this.id = id;
-		this.names = names;
-	}
-	public Integer getId() {
-		return id;
-	}
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	public String getNames() {
-		return names;
-	}
-	public void setNames(String names) {
-		this.names = names;
-	}
-	
-	public void setNamesV3(String names) {
-		this.names = names;
-	}
 	
 }
