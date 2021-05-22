@@ -13,6 +13,7 @@ import com.example.bookstore.repository.StoreRepository;
 import com.example.bookstore.service.StoreService;
 
 @Service
+@Transactional
 public class StoreServiceImpl implements StoreService {
 	private StoreRepository storeRepository;
 	private BookRepository bookRepository;
@@ -23,9 +24,7 @@ public class StoreServiceImpl implements StoreService {
 		this.bookRepository = bookRepository;
 	}
 	@Override
-	@Transactional
 	public void insertStore(Store store) {
-		
 		if(store.getBooks() != null) {
 			storeRepository.save(store);
 			for(Book b : store.getBooks()) {

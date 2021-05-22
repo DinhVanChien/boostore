@@ -27,14 +27,14 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "store")
+@Table(name = "STORE")
 @EntityListeners(AuditingEntityListener.class)
 public class Store extends Auditable<String> implements Serializable {
 	private static final long serialVersionUID = -7376952695622015725L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "ID")
-	private Integer id;
+	private Long id;
 	@Column(name = "address")
 	private String address;
 
