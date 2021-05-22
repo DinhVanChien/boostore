@@ -72,7 +72,8 @@ public class BookController {
 	private ResponseEntity<Book> findById(@PathVariable Long id) {
 		try {
 			Book book = bookService.findById(id);
-			return new ResponseEntity<>(book, HttpStatus.OK);
+			return
+					new ResponseEntity<Book>(book, HttpStatus.OK);
 		} catch (NullPointerException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
@@ -90,8 +91,8 @@ public class BookController {
 	@GetMapping("/all")
 	private ResponseEntity<Object[]> findAll() {
 		try {
-			Object[] books = bookService.findAll();
-			return new ResponseEntity<>(books, HttpStatus.OK);
+			Object[] booksxyz = bookService.findAll();
+			return new ResponseEntity<>(booksxyz, HttpStatus.OK);
 		} catch (NullPointerException e) {
 			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
 		}
