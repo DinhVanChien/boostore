@@ -25,7 +25,7 @@ public class BookNativeController {
 		try {
 			books = bookNative.findGrouByStore();
 			if(books == null) {
-				throw new NotFoundException("Khong ton tai record book");
+				throw new NotFoundException("Không tồn tại record book");
 			}
 		} catch (Exception e) {
 			throw new NotFoundException(e.getMessage());

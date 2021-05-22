@@ -83,17 +83,17 @@ public class BookController {
 		try {
 			Object book = bookService.findByIdObj(id);
 			return new ResponseEntity<>(book, HttpStatus.OK);
-		} catch (NullPointerException e) {
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		} catch (NullPointerException ex) {
+			return new ResponseEntity<Object>(HttpStatus.NOT_FOUND);
 		}
 	}
 	@GetMapping("/all")
 	private ResponseEntity<Object[]> findAll() {
 		try {
-			Object[] books = bookService.findAll();
-			return new ResponseEntity<>(books, HttpStatus.OK);
-		} catch (NullPointerException e) {
-			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+			Object[] books_xxx = bookService.findAll();
+			return new ResponseEntity<>(books_xxx, HttpStatus.OK);
+		} catch (NullPointerException ex) {
+			return new ResponseEntity<Object[]>(HttpStatus.NOT_FOUND);
 		}
 	}
 	@PostMapping("/test")
