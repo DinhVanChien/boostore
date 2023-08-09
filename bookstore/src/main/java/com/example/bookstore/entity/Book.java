@@ -28,7 +28,7 @@ public class Book implements Serializable{
 	private float price;
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "store_id")
-	//@JsonIgnore
+	@JsonIgnore
 	//@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	private Store store;
 	

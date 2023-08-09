@@ -18,5 +18,9 @@ public class User {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String names;
+	public User(String names) {
+		super();
+		this.names = names;
+	}
 	
 }
